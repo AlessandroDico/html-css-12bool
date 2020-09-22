@@ -9,36 +9,35 @@ body {
 }
 
 [class*="col-"] {
-    height: 50px;
+    height: 100%;
     background-color: rebeccapurple;
     border: 1px solid green;
 }
 
 .first-row > [class*="col-"]  {
-    padding: 0 10px;
     height: 80px;
 }
 
 .second-row > [class*="col-"]  {
-    padding: 0 10px;
     height: 60px;
 }
 
 .third-row > [class*="col-"]  {
-    padding: 0 10px;
     height: 60px;
 }
 
 .fourth-row > [class*="col-"]  {
-    padding: 0 10px;
     height: 60px;
 }
 
 .fifth-row > [class*="col-"]  { /*altezza come la first*/
-    padding: 0 10px;
     height: 80px;
 }
 
 #game {
     margin-bottom: 50px;
+}
+
+.space-color {
+    background-color: #fff;
 }
