@@ -11,31 +11,21 @@ body {
 [class*="col-"] {
     height: 100%;
     background-color: rebeccapurple;
-    border: 1px solid green;
 }
 
-.first-row > [class*="col-"]  {
+.first-row > [class*="col-"],
+.fifth-row > [class*="col-"]  {
     height: 80px;
 }
 
-.second-row > [class*="col-"]  {
+.second-row > [class*="col-"],
+.third-row > [class*="col-"],
+.fourth-row > [class*="col-"] {
     height: 60px;
-}
-
-.third-row > [class*="col-"]  {
-    height: 60px;
-}
-
-.fourth-row > [class*="col-"]  {
-    height: 60px;
-}
-
-.fifth-row > [class*="col-"]  { /*altezza come la first*/
-    height: 80px;
 }
 
 #game {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .space-color {
