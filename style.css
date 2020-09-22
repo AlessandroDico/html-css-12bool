@@ -52,7 +52,3 @@ body {
 #game {
     margin-bottom: 80px;
 }
-
-[class*="col-"] > .space-color {
-    background-color: black;
-}
